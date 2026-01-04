@@ -209,4 +209,47 @@ h2{
 .social{
     display: flex;
     gap: 30px;
+
+}
+@media (max-width: 600px) {
+
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+  }
+
+  .bio {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .left, .right {
+    width: 100%;
+  }
+
+  .mypic {
+    width: 200px;
+    margin-top: 20px;
+  }
+
+  .experience .hr-line {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .slider {
+    width: 100%;
+  }
+
+  footer .social {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
