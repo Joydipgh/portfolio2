@@ -213,43 +213,90 @@ h2{
 }
 @media (max-width: 600px) {
 
-  header {
+  /* HEADER */
+  .header {
     flex-direction: column;
-    text-align: center;
+    height: auto;
+    padding: 15px 0;
+  }
+
+  .logo {
+    margin: 0;
+    width: 80px;
   }
 
   .menu {
     flex-direction: column;
-    gap: 10px;
-    padding: 0;
+    gap: 12px;
   }
 
+  .menus {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+
+  /* BIO SECTION */
   .bio {
     flex-direction: column;
-    padding: 20px;
-    text-align: center;
+    height: auto;
+    margin-top: 30px;
   }
 
-  .left, .right {
-    width: 100%;
+  .left {
+    margin-top: 20px;
+    font-size: 28px;
   }
 
   .mypic {
-    width: 200px;
-    margin-top: 20px;
+    width: 220px;
+    height: 220px;
+    margin: 20px auto;
   }
 
-  .experience .hr-line {
+  /* EXPERIENCE */
+  .experience {
+    height: auto;
+  }
+
+  .hr-line {
     flex-direction: column;
-    gap: 30px;
+    align-items: center;
+    gap: 40px;
+    height: auto;
+  }
+
+  .vr-line {
+    display: none;
+  }
+
+  .vr-role,
+  .vr-desc {
+    position: static;
+    text-align: center;
+  }
+
+  /* PROJECTS */
+  .projects {
+    height: auto;
   }
 
   .slider {
-    width: 100%;
+    width: 95%;
+    height: 250px;
   }
 
-  footer .social {
+  /* FOOTER */
+  footer {
+    height: auto;
+    padding: 30px 0;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .social {
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
   }
 }
